@@ -29,7 +29,7 @@ class Contacto:
         # Fechas de sistema
         self.fecha_registro = datetime.now().strftime("%d/%m/%Y") # Toma la fecha del sistema
         self.tiempo_actualizacion = None 
-
+ #a ver si con eso ya se suben los archivos.
     def __str__(self):
         # Formato para mostrar en consola y reportes Aqui me apoyo chat porque no sabia que hacer
         update_str = self.tiempo_actualizacion if self.tiempo_actualizacion else "Sin cambios"
